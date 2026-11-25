@@ -45,9 +45,20 @@ import Compfrag from "./fragment/fragcomp";
 import ConditionalRendering from "./conditional-Rendering/conditional-Rendering";
 import Newcomp from "./Props/Newcomp";
 import House from "./Props/House";
+import Mapcomp from "./Props/Mapcomp";
+import Greet from "./Props/Greet";
+import ComponentA from "./Prop-drilling/ComponentA";
+import inline from "./css-react/inline";
+import "./global.css";
+import Summer from "./css-react/Summer";
+import Rainy from "./css-react/Rainy";
+import Navbar from "./task/Navbar";
+import Winter from "./css-react/Winter";
+
 
 const App = () => {
   let day = "Tuesday";
+  let colors = ["violet","indigo","blue","yellow","orange","red","green","black"]
 
   return (
     <main>
@@ -61,10 +72,19 @@ const App = () => {
 
       <ConditionalRendering /> */}
 
-      <Newcomp/>
+      {/* <Newcomp /> */}
       {/* <House house="red" captain="keerthi" students={150}/>
       <House house="green" captain="payal" students={100}/>
       <House house="yellow" captain="ravikant" students={157}/> */}
+      {/* <Mapcomp  colors={colors}/> */}
+      {/* <Greet>happy diwali</Greet>
+      <Greet>happy chaath puja</Greet> */}
+      <ComponentA />
+      {/* <inline /> */}
+      {/* <Summer />
+      <Winter />
+      <Rainy /> 
+      <Navbar/> */}
     </main>
   );
 };

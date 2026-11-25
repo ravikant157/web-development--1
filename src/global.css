@@ -1,0 +1,44 @@
+h2{
+    color: aqua;
+    font-style: italic;
+
+}
+
+p{
+    color: aquamarine;
+    font-size: xx-large;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(221, 178, 24);
+    color: rgb(255, 0, 0);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    gap: 65%;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 15%;
+    font-size: 24px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+    color: beige;
+}

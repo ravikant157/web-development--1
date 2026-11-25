@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 const Comp1 = (props) => {
   console.log(props); // student : "kratika"
