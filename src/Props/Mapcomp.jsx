@@ -23,4 +23,4 @@ console.log(colors); //["violet","indigo","blue",]
   )
 }
 
-export default Mapcomp
+export default Mapcomp;

@@ -9,8 +9,9 @@ const Greet = (props) => {
     <div>
       {/* <h2>{props.children}</h2> */}
       <h3>{children}</h3>
+      <h2>happy diwali</h2>
     </div>
   )
 }
 
-export default Greet
+export default Greet;
